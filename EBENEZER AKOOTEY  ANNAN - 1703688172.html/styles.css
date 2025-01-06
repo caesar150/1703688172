@@ -1,0 +1,100 @@
+body{
+    font-family: Georgia;
+    color: aliceblue;
+    background-color: #0e1834f9;
+    cursor: pointer;
+}
+
+hr{
+    height: 3px;
+    border-radius: 50px;
+    width: 50%;
+
+    border-color: aliceblue;
+}
+
+form{
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    color: #000000;
+    background-color: rgb(227, 237, 235);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    /* width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em; */
+    
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#signup-form{
+    display: block;
+   
+
+}
+
+#login-form{
+    text-align: center;
+    
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 75%;
+    height: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor:text;
+
+
+}
+
+input[type="submit"]{
+    font-family: Georgia;
+    width: 40%;
+    height: 25px;
+    background-color: #4caf9b;
+    color: fff;
+    border: none;
+    border-radius: 5px;
+    cursor: default;
+
+
+}
+
+input[type="submit"]:hover{
+    background-color: #3e8d8e;
+}
+
+fieldset{
+    margin-left: 12%;
+    margin-right: 12%;
+    border-radius: 5px;
+}
+
+.link{
+    cursor: default;
+}
+
+/* textarea{
+    margin-left: 11%;
+    margin-right: 11%;
+} */
+
+#last-label{
+    diaplay: block;
+    margin-bootom: 10px;
+}
+

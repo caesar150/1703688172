@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 align="center">Welcome to the Student Feedback and Evaluation Login page</h1>
+        <hr>
+            <form align="center">
+                <h3>Sign Up to be able to access the system</h3>
+                <label for="first-name">First Name</label>
+                <input type="text" id="signup-first-name" placeholder="Kwabena" required><br><br> 
+                <label for="last-name">Last Name</label>
+                <input type="text" id="signup-last-name" placeholder="Annan" required ><br><br>
+                <label for="sign up-username">Username</label>
+                <input type="text" id="signup-username" placeholder="@Caesar" required><br><br>
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" placeholder="Kwabena123@gmail.com" required><br><br>
+                <label for="date-of-birth">Date of birth</label>
+                <input type="date" id="signup-date-of-birth" required><br><br>
+                <fieldset>
+                    <legend>Campus(required)</legend>
+                    <hr>
+                    <label for="campus1"><input type="radio" id="signup-campus1" name="campus" >Accra<br></label>
+                    <label for="campus2"><input type="radio" id="signup-campus2" name="campus" >Kumasi<br></label>
+                    <label for="campus3"><input type="radio" id="signup-campus3" name="campus" >Ho<br></label>
+                    <label for="campus4"><input type="radio" id="signup-campus3" name="campus" >Takoradi<br><br></label>
+                </fieldset>
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" maxlength="20"><br><br>
+                <label for="signup-confirm-password">Confirm Password</label>
+                <input type="password" id="signup-confirm-password" maxlength="20"><br><br>
+                <nav>
+                    <input type="submit" value="Sign Up" onclick="location.href='index.html'"><br><br>
+                </nav>
+                
+                <hr>
+                <p>Already have an account?</p> 
+                <nav class="link"><a href="index.html">Login</a></nav>
+            </form>
+    </body>
+</html>
